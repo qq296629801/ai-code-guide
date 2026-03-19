@@ -1,73 +1,64 @@
-# AI Code Guide
+# AI 爆品预测工具
 
-AI 编程指南 - 帮助开发者快速掌握 AI 辅助编程技术。
+> AI 驱动的电商数据分析与爆品预测平台
 
-## 简介
+---
 
-本项目致力于整理 AI 编程相关的最佳实践、工具推荐、教程资源，帮助开发者提升编程效率。
+## 项目简介
 
-## 目录
+本项目旨在通过 AI 大模型 + 海量数据分析，帮助电商商家发现运营规律、预测爆款商品、优化直播策略。
 
-### AI 编程基础
-- [AI 编程工具](./docs/tools.md)
-- [Prompt 提示词技巧](./docs/prompts.md)
-- [最佳实践](./docs/best-practices.md)
-- [常见问题](./docs/faq.md)
+**核心思想：** 想是想不出来的，只能调研分析外界需要什么。
 
-### AI 预测工具项目
-- [产品需求文档 (PRD)](./docs/prd-ai-predict-tool.md)
-- [项目调研文档](./docs/research-ai-predict-tool.md)
-- [数据采集方案 - 详细设计](./docs/data-collection-design.md)
-- [爆品预测算法 - 详细设计](./docs/prediction-algorithm-design.md)
-- [技术架构 - 详细设计](./docs/technical-architecture-design.md)
+---
 
-### 技术调研报告
-- [爆品预测算法 - 技术调研报告](./docs/hot-product-prediction-research.md)
+## 文档目录
 
-## AI 编程工具推荐
+### 一、产品需求设计
 
-| 工具 | 类型 | 说明 |
-|------|------|------|
-| Cursor | IDE | AI 原生代码编辑器 |
-| Claude Code | CLI | Anthropic 官方命令行工具 |
-| GitHub Copilot | 插件 | VS Code/JetBrains AI 助手 |
-| OpenClaw | CLI | 开源 AI 助手框架 |
-| Trae | IDE | 字节跳动 AI IDE |
+| 文档 | 说明 |
+|------|------|
+| [产品需求文档 (PRD)](./docs/product/prd-ai-predict-tool.md) | 产品定位、功能模块、MVP 规划 |
+| [项目调研文档](./docs/product/research-ai-predict-tool.md) | 市场调研、竞品分析、可行性评估 |
 
-## 快速开始
+### 二、技术方案实现调研
 
-### 1. 选择合适的 AI 编程工具
+| 文档 | 说明 |
+|------|------|
+| [数据采集方案](./docs/technical/data-collection-design.md) | 抖音/淘宝/1688 爬虫、反爬对抗、代理池 |
+| [爆品预测算法设计](./docs/technical/prediction-algorithm-design.md) | 特征工程、模型训练、预测服务 |
+| [爆品预测算法调研](./docs/technical/hot-product-prediction-research.md) | 时序预测、机器学习、深度学习技术调研 |
+| [技术架构设计](./docs/technical/technical-architecture-design.md) | 微服务架构、数据库设计、AI 能力层 |
 
-根据你的使用场景选择：
-- **日常编码**：Cursor、Trae
-- **命令行/自动化**：Claude Code、OpenClaw
-- **现有 IDE 增强**：GitHub Copilot
+---
 
-### 2. 学习基础 Prompt 技巧
+## 核心功能
 
-```text
-好的提问方式：
-- 明确描述目标和上下文
-- 提供必要的代码片段
-- 说明期望的输出格式
+- **数据采集** - 多平台数据抓取（抖音、淘宝、1688）
+- **爆品预测** - AI 预测未来爆品
+- **运营分析** - 直播策略、话术建议
+- **知识图谱** - 商品关联、竞品分析
 
-避免的提问方式：
-- 模糊的需求描述
-- 缺少上下文信息
-- 过于宽泛的问题
-```
+---
 
-### 3. 实践与迭代
+## 技术栈
 
-AI 编程是一个需要不断实践和磨合的过程。建议：
-- 从小项目开始尝试
-- 记录有效的 Prompt 模式
-- 逐步扩大 AI 辅助的范围
+| 层级 | 技术 |
+|------|------|
+| 后端 | Java 17 + Spring Boot 3 |
+| 前端 | Vue 3 + TypeScript |
+| 数据库 | MySQL + Redis + ES + ClickHouse |
+| AI | LangChain4j / Spring AI |
+| 部署 | Docker + Kubernetes |
 
-## 贡献指南
+---
 
-欢迎提交 Issue 和 Pull Request 来完善这份指南！
+## 项目地址
 
-## 许可证
+- GitHub: https://github.com/qq296629801/ai-code-guide
 
-MIT License
+---
+
+## License
+
+MIT
