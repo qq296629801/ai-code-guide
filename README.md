@@ -14,9 +14,12 @@ AI 编程指南 - 帮助开发者快速掌握 AI 辅助编程技术。
 - [最佳实践](./docs/best-practices.md)
 - [常见问题](./docs/faq.md)
 
-### 项目文档
-- [AI 预测工具 - 产品需求文档](./docs/prd-ai-predict-tool.md)
-- [AI 预测工具 - 项目调研文档](./docs/research-ai-predict-tool.md)
+### AI 预测工具项目
+- [产品需求文档 (PRD)](./docs/prd-ai-predict-tool.md)
+- [项目调研文档](./docs/research-ai-predict-tool.md)
+- [数据采集方案 - 详细设计](./docs/data-collection-design.md)
+- [爆品预测算法 - 详细设计](./docs/prediction-algorithm-design.md)
+- [技术架构 - 详细设计](./docs/technical-architecture-design.md)
 
 ## AI 编程工具推荐
 
