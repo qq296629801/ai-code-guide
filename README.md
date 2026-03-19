@@ -8,10 +8,15 @@ AI 编程指南 - 帮助开发者快速掌握 AI 辅助编程技术。
 
 ## 目录
 
+### AI 编程基础
 - [AI 编程工具](./docs/tools.md)
 - [Prompt 提示词技巧](./docs/prompts.md)
 - [最佳实践](./docs/best-practices.md)
 - [常见问题](./docs/faq.md)
+
+### 项目文档
+- [AI 预测工具 - 产品需求文档](./docs/prd-ai-predict-tool.md)
+- [AI 预测工具 - 项目调研文档](./docs/research-ai-predict-tool.md)
 
 ## AI 编程工具推荐
 
