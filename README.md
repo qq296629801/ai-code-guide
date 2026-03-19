@@ -21,6 +21,9 @@ AI 编程指南 - 帮助开发者快速掌握 AI 辅助编程技术。
 - [爆品预测算法 - 详细设计](./docs/prediction-algorithm-design.md)
 - [技术架构 - 详细设计](./docs/technical-architecture-design.md)
 
+### 技术调研报告
+- [爆品预测算法 - 技术调研报告](./docs/hot-product-prediction-research.md)
+
 ## AI 编程工具推荐
 
 | 工具 | 类型 | 说明 |
